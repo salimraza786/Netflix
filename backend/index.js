@@ -29,6 +29,6 @@ app.use("/api/v1/user", userRoute);
 
 const port = process.env.PORT || 8002
 
-app.listen(process.env.port,() => {
-    console.log(`Server listen at port ${process.env.PORT}`);
+app.listen(port,() => {
+    console.log(`Server listen at port ${port}`);
 });
