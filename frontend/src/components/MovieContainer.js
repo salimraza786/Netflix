@@ -4,7 +4,6 @@ import { useSelector } from "react-redux";
 
 const MovieContainer = () => {
   const movie = useSelector(store => store.movie)
-  console.log(movie)
   
   return (
     <div className="bg-black">
